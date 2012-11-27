@@ -21,6 +21,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency "reel"
   gem.add_runtime_dependency "redis"
   gem.add_runtime_dependency "redis-namespace"
+  gem.add_runtime_dependency "riak-client", "~> 1.1.0"
   gem.add_runtime_dependency "moneta"
 
   gem.add_development_dependency "rake"
