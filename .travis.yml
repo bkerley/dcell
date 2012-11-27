@@ -6,5 +6,8 @@ rvm:
   - jruby-head
   - rbx-19mode
 
+services:
+  - riak
+
 notifications:
   irc: "irc.freenode.org#celluloid"
