@@ -64,7 +64,7 @@ module DCell
 
         def get(key)
           string = @bucket.get(key)
-          Marshal.load string if string
+          Marshal.load string.data if string
         end
 
         def set(key, value)
