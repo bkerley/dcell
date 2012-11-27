@@ -19,6 +19,7 @@ require 'dcell/server'
 require 'dcell/info_service'
 
 require 'dcell/registries/redis_adapter'
+require 'dcell/registries/riak_adapter'
 require 'dcell/registries/moneta_adapter'
 
 require 'dcell/celluloid_ext'
